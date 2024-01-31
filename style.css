@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #457b9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    
+    text-align: center;
+    padding-top: 5vh;
+}
+
+
+
+ .container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game {
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+
+.box {
+    
+    height: 22vmin;
+    width: 22vmin;
+    border-radius: 1rem;
+    border: 5px solid black;
+    box-shadow: 0,0,1rem rgba(0,0,0.3);
+    font-size: 15vmin;
+    color: black;
+    background-color: white;
+} 
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: #191913;
+    color: white;
+    border: none;
+}
+
+/* X box color */
+
+.Xbox
+{
+    color: #fb5607;
+    background-color: #ffba08;
+    font-size: 15vmin;
+    cursor: not-allowed;
+}
+
+.Obox
+ {
+    color: white;
+    background-color: #0096c7;
+    font-size: 15vmin;
+    cursor: not-allowed;
+}
+
+
+/* winner */
+
+#msg {
+    
+    padding: 5vmin 5vmin;
+    
+    /* font-size: 5vmin;
+    margin-bottom: 5vmin;
+    background-color: white;
+    color: black;     */
+}
+
+.msg-Container {
+    padding: 5vmin 10vmin;
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    flex-direction: column;
+}
+#new-Btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: #7400b8;
+    color: white;
+    border: none;
+}
+.hide {
+    display: flex;
+}
+
+
+/* media queres */
+
+@media screen and (max-width: 600px) {
+    .msg-Container{
+        height: 5vh;
+        width: 5vw;
+    }
+}
