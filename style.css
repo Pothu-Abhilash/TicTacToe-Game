@@ -121,8 +121,26 @@ main{
 /* media queres */
 
 @media screen and (max-width: 600px) {
-    .msg-Container{
-        height: 5vh;
-        width: 5vw;
+    .msg-Container,
+    .hide{
+        padding: 5vmin 10vmin;
+        text-align: center;
+        /* display: none; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .9);
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2rem;
+        flex-direction: column;
+    }
+    #new-Btn {
+        padding: 0.5rem;
+        font-size: 0.75rem;
+        border-radius: 0.5rem;
     }
 }
