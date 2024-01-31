@@ -143,4 +143,12 @@ main{
         font-size: 0.75rem;
         border-radius: 0.5rem;
     }
+
+    .container{
+        height: 60vh;
+    }
+
+    #reset-btn {
+        padding-bottom: 2vh;
+    }
 }
